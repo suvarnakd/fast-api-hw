@@ -6,7 +6,7 @@ This project is a RESTful API built with Python and FastAPI.
 ## Installation
 1. Clone the repository
  ```bash
-   git clone 
+   git clone https://github.com/suvarnakd/fast-api-hw.git
 
 2. Create a Python 3.9 virtual environment:
    ```bash
@@ -20,5 +20,5 @@ This project is a RESTful API built with Python and FastAPI.
 ## Usage
 Run the API with uvicorn:
    ```bash
-    uvicorn main:app --reload
+    uvicorn app.main:app --reload
 
